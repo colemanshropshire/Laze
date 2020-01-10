@@ -1,0 +1,40 @@
+{
+  "name": "laze",
+  "version": "1.0.0",
+  "description": "Web-based Clothing Business",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colemanshropshire/Laze.git"
+  },
+  "author": "Coleman Shropshire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colemanshropshire/Laze/issues"
+  },
+  "homepage": "https://github.com/colemanshropshire/Laze#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.1",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.18",
+    "sass-loader": "^8.0.0"
+  }
+}
