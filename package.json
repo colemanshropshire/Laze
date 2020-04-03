@@ -29,7 +29,9 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1",
-    "kind-of": "^6.0.3"
+    "kind-of": "^6.0.3",
+    "acorn": "^6.4.1",
+    "minimist": "^1.2.2"
   },
   "dependencies": {
     "axios": "^0.19.2",
